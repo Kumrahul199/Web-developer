@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alignment</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            font-family: 'Ubuntu',sans-serif;
+        }
+        .container{
+            width:900px;
+            border:3px solid greenyellow;
+            /* margin auto is used for centre the statement */
+            margin:auto;
+
+        }
+.item{
+    border: 3px solid green;
+    margin:10px;
+    padding: 10px;
+    background:  rgb(31, 179, 147);
+
+}
+#fruit{
+    float:left;
+    width:48%;
+}
+
+#computer{
+       /* float:left;
+    width:48%;  
+   */
+}
+#stationary{
+    clear:both;
+    width: 98%;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="fruit" class="item">
+            <p id="fruitspara" class="para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque, quam reprehenderit. Consequuntur tempora officiis itaque ea minus. Possimus eligendi expedita, sint sed molestias ipsum earum ipsa adipisci officia numquam sunt quas repudiandae ad ullam?Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, sint. Voluptas, odio dignissimos alias ex molestias beatae aut odit, accusantium ullam, sed doloremque! Magnam aliquid, facere ratione quas sapiente temporibus!</p>
+        </div>
+        <div id="computer" class="item">
+            <p id="computerpara" class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum recusandae quasi ipsam autem reiciendis incidunt dignissimos odit quia beatae possimus velit voluptas, ad molestias quae vero et qui! Eum autem laudantium illum error expedita.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam adipisci voluptas odit nostrum corporis dolore aliquam a, aspernatur vel temporibus numquam soluta est voluptate ea enim natus et omnis fugit accusamus, repellat, eum eaque.</p>
+        </div>
+        <div id="stationary" class="item">
+            <p id="stationarypara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti natus expedita eligendi consequatur delectus aliquam voluptatibus quisquam accusantium, eum dicta!</p>
+        </div>
+    </div>
+</body>
+</html>

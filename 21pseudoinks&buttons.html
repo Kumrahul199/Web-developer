@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo selectors and designing</title>
+    <style>
+.container{
+    border:2px solid yellow;
+    background-color: rgb(131, 221, 58);
+    margin: 33px auto;
+    padding: 33px;
+    width: 457px;
+    
+}
+.btn{
+    background-color: aqua;
+    padding:6px;
+    border:none;
+    cursor:pointer;
+    font-size: 13px;
+    border-radius: 4px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+/* hover means when uhh move cursor in statement we'll see change in color */
+a:hover{
+    color:rgb(202, 38, 38);
+    background-color: white;
+}
+a{
+    text-decoration: none;
+    /* to set only one color in both button */
+    color:black;
+}
+a:visited{
+color:red;
+}
+a:active{
+    background-color: blue;
+}
+.btn:hover{
+    color:aqua;
+    background-color: green;
+}
+    </style>
+</head>
+<body>
+    <div class="container" id="cont1">
+    <h3>This is my heading</h3>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora optio unde velit alias debitis nesciunt et assumenda quibusdam error, mollitia inventore. Dolorem, quisquam velit corrupti laboriosam, vero porro rem corporis vel commodi quia perferendis!</p>
+    <a href="https://www.google.co.in/" class="btn">Read more</a>
+    <button class="btn">Contact us</button>
+</div>
+
+</body>
+</html>
